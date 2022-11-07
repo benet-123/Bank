@@ -1,0 +1,28 @@
+how data sharing happens?
+data is shared between html and ts
+html is known as view , ts-component
+
+data is shared by data binding 
+
+METHODS in data binding?
+1) one way binding
+  1.1)component to view
+         technique used is : 
+        1.1.1)string interpolation: {{}}
+        1.1.2)property binding: [property name]="value"
+
+ 1.2)view to component(important)
+      1.2) technique used is:
+            1.2.1) event binding: (event name)="methodname()"
+            1.2.2) $event binding: (event name)="methodname($event)"
+             here the event is considered as an object and it is accessed using event.target.value
+            1.2.3) event binding using template reference variable : #variablename
+       data can be easily accessed from the input using this method instead of event binding
+
+2) two way binding
+       2.1)  ngModel  -has FormsModule(a module in ngModel) a content in angular forms: [(ngModel)]="value"
+its a method used instead of template refernce variable and its the simplest method.
+
+Routing in angular
+ The method used to redirect instead of window.location: navigateByUrl
+ the method is present inside router class
