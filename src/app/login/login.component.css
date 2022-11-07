@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Qwitcher+Grypen&family=Slabo+27px&display=swap');#login-box{
-  background: linear-gradient(rgba(218, 81, 81, 0.3),rgba(26, 21, 21, 0.3));
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Qwitcher+Grypen&family=Slabo+27px&display=swap');
+#login-box{
+  background: linear-gradient(rgb(173 77 30 / 30%),rgb(190 208 17 / 41%));
   border-radius: 10px;
   box-shadow: 7px 7px 60px #000;
   width: 380px;

@@ -22,7 +22,7 @@ METHODS in data binding?
 2) two way binding
        2.1)  ngModel  -has FormsModule(a module in ngModel) a content in angular forms: [(ngModel)]="value"
 its a method used instead of template refernce variable and its the simplest method.
-
+html to ts
 Routing in angular
  The method used to redirect instead of window.location: navigateByUrl
  the method is present inside router class

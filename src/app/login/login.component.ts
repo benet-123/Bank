@@ -24,47 +24,22 @@ constructor(){}
   ngOnInit():void{
 
   }
-//   login(){
-//     alert("login clicked") //event binding
-//    var acno=this.acno
-//    var psw=this.psw
-//    var userdetails=this.userDetails
-//    if(acno in userdetails){
-// if(psw==userdetails[acno]["password"]){
-
-// }
-// else{
-//   alert("incorrect password")
-// }
-//    }
-//    else{
-//     alert("user not exist")
-//    }
-//   }
-//   acnoChange(event:any){
-// this.acno=event.target.value
-
-//   }
-//   pswChange(event:any){
-//     this.psw=event.target.value
-    
-//   }
-login(a:any,b:any){
-  alert("login clicked") //event binding
- var acno=a.value  //its accessed inside a tag to get the value use a.value
- var psw=b.value
- var userdetails=this.userDetails
- if(acno in userdetails){
+  login(){
+    alert("login clicked") 
+   var acno=this.acno
+   var psw=this.psw
+   var userdetails=this.userDetails
+   if(acno in userdetails){
 if(psw==userdetails[acno]["password"]){
-alert("login success")
+
 }
 else{
-alert("incorrect password")
+  alert("incorrect password")
 }
- }
- else{
-  alert("user not exist")
- }
-}
+   }
+   else{
+    alert("user not exist")
+   }
+  }
 
 }
