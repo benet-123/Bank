@@ -1,0 +1,18 @@
+#login-box{
+    background: linear-gradient(#bdadb4,rgb(104 113 19 / 41%));
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+    width: 380px;
+    margin-left: 30px;
+  }
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  #login-box:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8) ;
+      -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+          transition: all 0.7s ease-out 0s;
+  }

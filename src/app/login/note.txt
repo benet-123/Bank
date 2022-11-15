@@ -26,3 +26,21 @@ html to ts
 Routing in angular
  The method used to redirect instead of window.location: navigateByUrl
  the method is present inside router class
+ dependency injection- to share data between 2 classes
+
+
+ inside constructor
+ firt give access specifier ie private or public
+ then use any variable 
+ then the classsName that needs to be injected
+
+ Angular Services
+to store redunctantdata if more than 1 compononet needs them
+command to create new serive ng g s servicename
+THE LOGIC THAT IS DIRECTLY CONNECTED TO DATABSE ARE CREATED IN DATA SERVICE
+the logic is called inside the respective methods.
+
+Angular Directories its used inside HTML:
+structural directive : can apply data directly from array 
+                     :ngFor is used to get elements from array in html instead of for loop
+                     :ngIf is used as if condition

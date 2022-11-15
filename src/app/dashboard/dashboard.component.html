@@ -1,1 +1,31 @@
-<p>dashboard works!</p>
+<div class="container-fluid">
+    <div><h3 class="text-center mt-3 text-success">Welcome {{user}}</h3>
+    </div>
+    <div  class="text-center"  ><a href="" routerLink="/transaction" style="text-decoration: none;">View transaction history</a></div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 mt-5" id="login-box">
+            <form (ngSubmit)="deposit()">
+                <h3 class="text-center text-white mt-2">DEPOSIT</h3>
+                <input [(ngModel)]="amnt"name="amount"  type="text" placeholder="Enter Amount" class="form-control  mt-3">
+                <input [(ngModel)]="acno"name="account" type="text" placeholder="Enter Account number" class="form-control   mt-3">
+                <input [(ngModel)]="psw" name="psw" type="text" placeholder="Enter Password" class="form-control   mt-3">
+<div class="text-center "><button type="submit" class="btn btn-success mt-3 mb-3">DEPOSIT</button></div>
+            </form>
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 mt-5" id="login-box">
+            <form (ngSubmit)="withdraw()">
+                <h3 class="text-center text-white mt-2">WITHDRAW</h3>
+                <input type="text"[(ngModel)]="amnt1"name="amount1"  placeholder="Enter Amount" class="form-control  mt-3">
+                <input type="text" [(ngModel)]="acno1" name="account1" placeholder="Enter Username" class="form-control   mt-3">
+                <input type="text" [(ngModel)]="psw1" name="psw1" placeholder="Enter Password" class="form-control   mt-3">
+<div class="text-center "><button type="submit"  class="btn btn-success mt-3 mb-3">WITHDRAW</button></div>
+            </form>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
